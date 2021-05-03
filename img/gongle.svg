@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 84 67" style="enable-background:new 0 0 84 67;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:url(#SVGID_1_);}
+	.st2{fill:url(#SVGID_2_);}
+</style>
+<g id="레이어_1" class="st0">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1.8666" y1="34.4092" x2="83.1186" y2="34.4092">
+		<stop  offset="0" style="stop-color:#CCFFFF"/>
+		<stop  offset="0.9617" style="stop-color:#FFD5FF"/>
+		<stop  offset="1" style="stop-color:#FFD2FF"/>
+	</linearGradient>
+	<path class="st1" d="M47.62,8.79L47.62,8.79L47.62,8.79 M42.14,17.2l27.03,39.93l-53.44-0.39L42.14,17.2 M42.04,2.82
+		c-0.75,0-1.5,0.36-1.96,1.06L2.41,60.69c-1.45,2.23,0.15,5.17,2.8,5.17c0.01,0,0.03,0,0.04,0L79.83,66
+		c2.64-0.03,4.19-2.99,2.71-5.18L43.97,3.85C43.51,3.16,42.77,2.82,42.04,2.82L42.04,2.82z"/>
+</g>
+<g id="레이어_2">
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="12" y1="33.5" x2="79" y2="33.5">
+		<stop  offset="0" style="stop-color:#CCFFFF"/>
+		<stop  offset="0.1461" style="stop-color:#D8FAE7"/>
+		<stop  offset="0.3904" style="stop-color:#E9F3C4"/>
+		<stop  offset="0.6212" style="stop-color:#F5EDAB"/>
+		<stop  offset="0.8308" style="stop-color:#FCEA9B"/>
+		<stop  offset="1" style="stop-color:#FFE996"/>
+	</linearGradient>
+	<circle class="st2" cx="45.5" cy="33.5" r="33.5"/>
+</g>
+</svg>

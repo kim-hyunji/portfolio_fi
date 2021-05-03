@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 6040px;
+}
+
+.section1{
+    width: 100%;
+    height: 500px;
+}
+
+.header_img{
+    margin-top: 30px;
+    background-image: url("../../img/81680.png");
+     background-repeat: no-repeat;
+     background-attachment : fixed;
+     height: 500px;
+     background-size: 100%;
+     transform: translateY(-100px);
+     position: relative;
+     /* width: 100%; */
+    /* background-repeat: no-repeat; */
+}
+
+
+.section1 p{
+    /* margin: 0; */
+    top: 40px;
+    left: 190px;
+    position: absolute;
+    z-index: 2000;
+    color: rgb(255, 166, 0);
+    /* color: white; */
+    /* background-color: white; */
+}
+
+/* section1 */
+
+.section2{
+    /* border: 1px solid red; */
+    display: block;
+    /* width: 680px; */
+    /* height: 300px; */
+    margin-top: 80px;
+    text-align: center;
+}
+
+.section2_img{
+    width: 600px;
+    margin-left: 50%;
+    transform: translateX(-40%);
+}
+
+
+.section2_all p{
+    margin-top: 70px;
+    display: inline-block;
+    /* border: 1px solid blue; */
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 30px;
+
+}
+
+/* section2 */
+
+
+
+.section3_all{
+    margin-top: 170px;
+    /* border: 1px solid red; */
+    display: block;
+    width: 100%;
+    margin: 170px auto 0 auto;
+    background-color: #eee;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.section3_all .main_logo{
+    width: 350px;
+    margin-right: 80px;
+}
+
+.section3_all .side_logo{
+    width: 350px;
+    background: white;
+}
+
+.section3 p{
+    margin-top: 120px;
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.section4{
+    margin-top: 190px;
+    /* text-align: center; */
+}
+
+.section4 .section4_img{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+
+.section4_bg{
+    position: relative;
+    margin-top: 170px;
+    padding: 100px 0 270px 0;
+    background: #eee;
+}
+
+.section4_bg .section4_img2{
+    width: 650px;
+    margin-left: 70px;
+}
+
+.section4_bg .section4_img3{
+    width: 650px;
+    position: absolute;
+    right: 150px;
+    bottom: 80px;
+}
+
+/* section4 */
+
+.section5_img{
+    width: 100%;
+}
+
+.section5_img2{
+    width: 100%;
+}
+
+.section5_img3{
+    width: 100%;
+}
+
+
+

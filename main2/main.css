@@ -1,0 +1,255 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'NanumSquare', sans-serif;
+    overflow-x: hidden;
+    height: 4200px;
+    background: #F6F6F6;
+}
+
+header{
+    position: relative;
+}
+
+header .header_all h1{
+    background: #565656;
+    width: 100%;
+    height: 280px;
+    margin: 0;
+    line-height: 280px;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    padding-left: 90px;
+}
+
+header .header_all h1 span{
+    color: #C6C6C6;
+    margin-left: 15px;
+}
+
+header .header_all .haitai_img{
+    display: block;
+    width: 650px;
+    height: 480px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.2);
+    top: 220px;
+}
+
+header .header_all .haitai_img img{
+    width: 100%;
+}
+
+header .header_all p{
+    margin: 120px 0 0 750px;
+    line-height: 40px;
+}
+
+header .header_all a{
+    display: block;
+    background: orange;
+    text-align: center;
+    margin: 30px 0 0 950px;
+    text-decoration: none;
+    color: white;
+    padding: 20px 0 20px 0;
+    font-weight: 600;
+    width: 200px;
+    font-size: 23px;
+    border-radius: 50px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+header .header_all a:visited{
+    color: white;
+}
+
+/* header */
+
+.section1{
+    margin-top: 220px;
+    text-align: center;
+}
+
+.section1 ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.section1 ul li h2{
+    color:orange;
+    margin-top: 0;
+}
+
+.section1 .section1_all{
+    display: inline-block;
+    /* border: 1px solid blue; */
+}
+
+.section1 .section1_left{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-right: 300px;
+}
+
+.section1 .section1_left .section1_ex1 li:nth-child(1){
+    margin-bottom: 60px;
+}
+
+.section1_ex1 li h2{
+    margin-bottom: 30px;
+}
+
+.section1_ex1 li p{
+    line-height: 30px;
+}
+
+
+.section1 .section1_right{
+    display: inline-block;
+    text-align: left;
+}
+
+.section1 .section1_right .section1_ex2 li {
+    margin-bottom: 50px;
+}
+
+
+/* section1 */
+
+.section2{
+
+}
+
+.section2 .section2_all{
+    /* border: 1px solid blue; */
+    margin: 100px 0 0 160px;
+}
+
+.section2 .section2_all h2{
+    color:orange;
+    margin-bottom: 50px;
+}
+
+.section2 .section2_all .img_01{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.section2 .section2_all .img_01 img{
+    width: 100%;
+}
+
+.section2 .section2_all .img_02{
+    display:inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.section2 .section2_all .img_02 img{
+    width: 100%;
+}
+
+
+.section2 .section2_all .img_03{
+    display:inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.section2 .section2_all .img_03 img{
+    width: 100%;
+}
+
+.section2 .section2_all .img_04{
+    display:inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.section2 .section2_all .img_04 img{
+    width: 100%;
+}
+
+.section2 .section2_all .img_05{
+    display:inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.section2 .section2_all .img_05 img{
+    width: 100%;
+}
+
+.section2 .section2_all .img_06{
+    display:inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.section2 .section2_all .img_06 img{
+    width: 100%;
+}
+
+
+.section2 .section2_all .img_07{
+    display:inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.section2 .section2_all .img_07 img{
+    width: 100%;
+}
+
+.section2 .section2_all .img_08{
+    display:inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.section2 .section2_all .img_08 img{
+    width: 100%;
+}
+
+.section2 .section2_all .img_09{
+    display:inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.section2 .section2_all .img_09 img{
+    width: 100%;
+}
+
+.bigPictureWrapper {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top:0%;
+    width:100%;
+    height:100%;
+    background-color: gray; 
+    z-index: 100;
+    background:rgba(255,255,255,0.5);
+}
+.bigPicture {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigPicture img {
+    width:600px;
+}
+
+
+
+

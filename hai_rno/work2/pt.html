@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+
+    <style>
+
+     html{
+         background: blanchedalmond;
+         /* transition-property: background-color;
+         transition-duration: 0.5s;  */
+         transition: background-color 0.5s;
+     }
+
+     body{ margin:0;
+        padding: 0;
+        width: 100vw;
+        box-sizing: border-box;
+        border:3px solid blue;
+        height: 1200px;
+        box-sizing: border-box;
+        /* position: relative;; */
+        }
+
+     body > div {
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        position: absolute;
+        width: 100%;
+        top:50px;
+        /* margin-top: 100px; */
+     }
+
+     body > div+div {
+         /* display: none; */
+         opacity: 0;
+     }
+
+     body > section > span {
+        font-size: 30px;
+        border: 2px solid red;
+        margin:0 auto;
+        display: block;
+        background: white;
+        text-align: center;
+        line-height: 50px;
+        width: 80px;
+        height: 50px;
+        position:absolute;
+        top:0px;
+        cursor: pointer;
+        
+     
+        /* transform: translatey(500px); */
+   
+       
+        
+     }
+
+      body > section > span:hover {
+        color: white;
+        background: black;
+        transform: scale(1.2);
+        transition: transform 0.5s;
+        
+      }
+
+      .container {
+         
+          display: block;
+          border: 2px solid red;
+          margin-top: 180px;
+          text-align: center;
+          /* box-sizing: border-box; */
+          /* height: 100px; */
+          
+         
+          
+          
+      }
+
+      .box {
+          display:inline-block;
+          background: chartreuse;
+          height: 100px;
+          width: 100px;
+          cursor: pointer;
+          box-sizing: border-box;
+          border: 2px solid red;
+          transition: all 0.5s;
+          vertical-align:bottom;
+          
+      }
+
+      .box::before{
+          content: "";
+          background: burlywood;
+          height: 100px;
+          width: 200px;
+      }
+
+      .box:hover{
+        transform: scale(2);
+      }
+
+
+      .box2 {
+          display:inline-block;
+          background: oldlace;
+          height: 100px;
+          width: 100px;
+          cursor: pointer;
+          box-sizing: border-box;
+          border: 2px solid red;}
+
+          .box2:hover {
+              transform: scale(1.2);
+          }
+
+          a{}
+
+    .box2border {
+        margin-top:40px;
+        border: 2px solid blue;
+        display: block;
+        height: 100px;
+        text-align: center;
+        /* box-sizing: border-box; */
+    }
+
+    .box3 {
+        background: brown;
+        width: 30px;
+        height: 20px;
+        margin: 0 auto;
+    }
+
+
+     @media all and (max-width: 1000px){
+         html { background: red;}
+
+         .text1{ 
+            transform: rotate(-180deg);
+            opacity: 0;
+            /* transition-duration: 0.5s;} */
+            transition: all 0.5s;} 
+         
+
+         .text2{
+            transform: rotate(-360deg);
+            transition: all 0.5s;
+            opacity:100%;}
+
+     }
+
+     @media all and (max-width: 870px) {
+         html {background: blue;}
+
+         .text2{
+             transform: rotate(-180deg);
+             transition: all 0.5s;
+             opacity:0;
+         }
+
+         .text3{
+            transform: rotate(360deg);
+            transition: all 0.5s;
+            opacity:100%;
+         }
+     }
+
+     @media all and (max-width: 768px) {
+         html { background: green;}
+
+         .text3{
+            transform: rotate(180deg);
+             transition: all 0.5s;
+             opacity:0;
+         }
+
+         .text4{
+            transform: rotate(-360deg);
+            transition: all 0.5s;
+            opacity:100%;
+         }
+     }
+
+     @media all and (max-width: 560px) {
+         html {background: pink}
+
+         .text4{
+            transform: rotate(180deg);
+             transition: all 0.5s;
+             opacity:0;
+         }
+
+         .text5{
+            transform: rotate(360deg);
+            transition: all 0.5s;
+            opacity:100%;
+         }
+     }
+
+    </style>
+</head>
+<body>
+
+    <div class="text1">text1</div>
+    <div class="text2">text2</div>
+    <div class="text3">text3</div>
+    <div class="text4">text4</div>
+    <div class="text5">text5</div>
+
+    <section>
+    <span>click!</span>
+
+    <div class="container"><div class="box"></div></div>
+
+    <div class="box2border"><div class="box2"></div></div>
+
+    <div class="box3"></div>
+
+
+  
+
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 4000px;
+}
+
+.section1{
+    width: 100%;
+    height: 500px;
+}
+
+.header_img{
+    margin-top: 30px;
+    background-image: url("../../img/2.jpg");
+     background-repeat: no-repeat;
+     background-attachment : fixed;
+     height: 500px;
+     background-size: 100%;
+     transform: translateY(-100px);
+     position: relative;
+     /* width: 100%; */
+    /* background-repeat: no-repeat; */
+}
+
+
+.section1 p{
+    /* margin: 0; */
+    top: 40px;
+    left: 190px;
+    position: absolute;
+    z-index: 2000;
+    color: #fff;
+    /* color: white; */
+    /* background-color: white; */
+}
+
+/* section1 */
+
+.section2{
+    text-align: center;
+}
+
+.section2 p{
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 30px;
+}
+
+/* section2 */
+
+.section3{
+    margin-top: 150px;
+    padding: 100px 0 100px 0;
+    background: #eee;
+    text-align: center;
+}
+
+.section3_img{
+    width: 80%;
+}
+
+/* section3 */
+
+
+.section4{
+    overflow: hidden;
+    /* border: 1px solid red; */
+    height: 780px;
+    margin-top: 70px;
+}
+
+.section4 img{
+    width: 110%;
+    transform: translateX(-65px);
+}
+
+/* section4 */
+
+.section5{
+    margin-top: 50px;
+}
+
+/* section5 */
+
+.section6{
+    margin-top: 150px;
+    text-align: center;
+}
+
+/* section6 */
+
+.name{
+    font-weight: 600;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-top: 150px;
+    margin-left: 100px;
+}

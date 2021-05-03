@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 3500px;
+}
+
+.section1{
+    width: 100%;
+    height: 500px;
+}
+
+.header_img{
+    margin-top: 30px;
+    background-image: url("../../img/1.png");
+     background-repeat: no-repeat;
+     background-attachment : fixed;
+     height: 500px;
+     background-size: 100%;
+     transform: translateY(-100px);
+     position: relative;
+     /* width: 100%; */
+    /* background-repeat: no-repeat; */
+}
+
+
+.section1 p{
+    /* margin: 0; */
+    top: 40px;
+    left: 190px;
+    position: absolute;
+    z-index: 2000;
+    color: rgb(255, 166, 0);
+    /* color: white; */
+    /* background-color: white; */
+}
+
+
+/* section1 */
+
+.section2_all{
+    display: block;
+    width: 680px;
+    margin: 0 auto;
+}
+
+.ildan {
+    width: 150px;
+    margin: 60px 0 0 0px;
+}
+
+.section2_all p{
+    vertical-align:top;
+    margin: 100px 0 0 100px;
+    display: inline-block;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+/* section2 */
+
+.section3_all{
+    /* border: 1px solid red; */
+    margin-top: 130px;
+}
+
+.ildan2{
+/* width: 100%; */
+    /* float: left; */
+    height: 250px;
+    /* border: 1px solid red; */
+    margin-top: 24px;
+}
+
+.ildan2_color{
+    /* border: 1px solid blue; */
+    height: 300px;
+    background: #2C2D48;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+
+.ildan3{
+    margin-top: 24px;
+    width: 300px;
+    /* width: 45%; */
+}
+
+.ildan3_color{
+    height: 300px;
+    background: #F0EACC;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+/* section3 */
+
+.section4{
+    text-align: center;
+}
+
+.section4 .section4_all{
+    margin-top: 120px;
+    /* border: 1px solid blue; */
+    display: inline-block;
+}
+
+.section4 .section4_all .horangi{
+    width: 100px;
+    margin-right: 170px;
+}
+
+.section4 .section4_all p{
+    margin-top: 60px;
+    vertical-align: top;
+    font-family: 'Nanum Gothic', sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+/* section4 */
+
+
+.section5{
+    margin-top: 150px;
+}
+.section5 img{
+    width: 100%;
+}

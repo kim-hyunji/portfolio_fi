@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 2800px;
+}
+
+.section1{
+    width: 100%;
+    height: 500px;
+}
+
+.header_img{
+    margin-top: 30px;
+    background-image: url("../../img/mori3.png");
+     background-repeat: no-repeat;
+     background-attachment : fixed;
+     height: 500px;
+     background-size: 100%;
+     transform: translateY(-160px);
+     position: relative;
+     /* width: 100%; */
+    /* background-repeat: no-repeat; */
+}
+
+
+.section1 p{
+    /* margin: 0; */
+    top: 40px;
+    left: 190px;
+    position: absolute;
+    z-index: 2000;
+    color: white;
+    /* color: white; */
+    /* background-color: white; */
+}
+
+
+.section2{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.section2 p{
+    line-height: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.mori_1{
+    width: 100%;
+}
+
+.mori_3{
+    width: 100%;
+}
