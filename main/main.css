@@ -1346,6 +1346,7 @@ video{
 
 @media all and (max-width:1024px){
 
+
     #profile .profile_img{
     width: 250px;
     height: 250px;
@@ -1374,6 +1375,9 @@ video{
     position: absolute;
     }
 
+    #work{
+        height: 3800px;
+    }
 
     #work .work_display01{
     right:auto;
@@ -1405,10 +1409,6 @@ video{
     .samsung .samsung_all {
     margin-top: 340px;
     }
-
-
-    /* #work {
-    height: 5390px;} */
 
     .all{
     height: 5400px;
@@ -1458,7 +1458,7 @@ video{
     margin: 20px auto 0 auto;}
 
     .ildan_table{
-    top: 850px;
+    top: 0px;
     }
 
     .ildan_table thead tr td:nth-child(3) {
