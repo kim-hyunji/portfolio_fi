@@ -14,7 +14,7 @@ html, body{
     border-style: dashed;
     position: absolute; */
     display: block;
-    background: url(../img/line2.png) no-repeat right;
+    background: url(../img/line.png) no-repeat right;
     /* position:absolute; */
     /* border: 2px solid red; */
     width: 100%;
@@ -57,6 +57,7 @@ html, body{
 
 .home ul li a{
     text-decoration: none;
+    color: white;
 }
 
 
@@ -465,7 +466,7 @@ video{
     position: absolute;
 }
 
-@-webkit-keyframes orangedong {
+@keyframes orangedong {
     0% {
         transform: translateY(-10px);
     }
@@ -946,9 +947,6 @@ video{
 /* 삼성 */
 
 
-#work{
-}
-
 
 #work .ildan{
     position: relative;
@@ -1093,10 +1091,33 @@ video{
     /* margin: 0; */
 }
 
+.ildan_display{
+    width: 506px;
+    height: 300px;
+    margin-left: 22px;
+    margin-top:30px;
+    overflow: hidden;
+}
+
+
+#work .work_display03 .ildan_display .ildan_img{
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 86px;
+}
+
+.ildan_black{
+    display: block;
+    width: 508px;
+    height: 300px;
+    background: #000;
+    position: absolute;
+} 
+
 
 .ildan_table{
     position: absolute;
-    top:580px;
+    top: 500px;
     left: 50%;
     transform: translateX(-50%);
     background: white;
@@ -1304,6 +1325,20 @@ video{
     bottom: 40px;
 }
 
+.final_text{
+    background: #ddd;
+    text-align: center;
+    height: 70px;
+}
+
+.final_text p{
+    font-weight: 600;
+    margin-top: 0;
+    line-height: 70px;
+    color: #888;
+}
+
+
 /* 미디어 쿼리 */
 
 
@@ -1473,8 +1508,6 @@ video{
     height: 4950px;
     } */
 
-    .typing {
-    }
 
     #profile{
     height: 900px;}

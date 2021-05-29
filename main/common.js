@@ -85,6 +85,16 @@ $(window).scroll(function () {
         // $(".haitai_black").stop().show();
         $(".samsung_black").stop().css('opacity','1');
     }
+
+    if (height >= 4000){
+        // $(".haitai_black").stop().hide(); /사용불가
+        // $(".samsung_black").stop().animate({opacity : '0'}, 400); /사용시 버벅거림
+        $(".ildan_black").stop().css('opacity','0');
+    }
+    else if (height < 4000) {
+        // $(".haitai_black").stop().show();
+        $(".ildan_black").stop().css('opacity','1');
+    }
 });
     
  
