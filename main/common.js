@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var i = 0;
-    var x = '웹퍼블리셔,\n 김현지 입니다.';
+    var x = '안녕하세요,\n 김현지 입니다.';
     var y = "";
     
 
